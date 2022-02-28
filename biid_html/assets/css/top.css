@@ -1,0 +1,14 @@
+@charset "UTF-8";
+#top .block__txt {
+  width: 680px; }
+
+/*max-width1100以下*/
+@media screen and (max-width: 1100px) {
+  #top .block__txt {
+    width: 68%; } }
+/*max-width770以下*/
+@media screen and (max-width: 770px) {
+  #top .block__txt {
+    width: 100%; } }
+
+/*# sourceMappingURL=top.css.map */

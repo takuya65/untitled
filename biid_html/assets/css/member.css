@@ -1,0 +1,88 @@
+@charset "UTF-8";
+#member .member__profile {
+  margin: 0 25px 25px 0;
+  width: 350px; }
+  #member .member__profile:nth-child(3n) {
+    margin-right: 0; }
+#member .member__photo {
+  width: 100%;
+  object-fit: cover; }
+  #member .member__photo--2 {
+    float: right;
+    width: 120px;
+    object-fit: cover; }
+    #member .member__photo--2::after {
+      content: "";
+      display: block;
+      clear: both; }
+#member .member__img {
+  width: 100%; }
+#member .member__name {
+  padding: 0 0 20px; }
+#member .member__link {
+  display: block;
+  position: relative;
+  padding: 0 0 0 20px;
+  width: 180px;
+  height: 39px;
+  font-size: 16px;
+  line-height: 39px;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #1a1a1a;
+  font-family: 'Lato', 'Oswald', sans-serif;
+  text-decoration: none; }
+  #member .member__link::after {
+    content: "";
+    position: absolute;
+    left: 175px;
+    top: 14px;
+    width: 11px;
+    height: 11px;
+    background-image: url(../img/pic_greater_than.png);
+    background-repeat: no-repeat;
+    background-size: contain; }
+  #member .member__link:hover {
+    opacity: 0.6;
+    transition: 0.3s; }
+#member .member__ttl {
+  padding-top: 70px;
+  color: #333;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold; }
+  #member .member__ttl span {
+    display: block;
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lato', 'Oswald', sans-serif; }
+
+/*max-width1100以下*/
+@media screen and (max-width: 1100px) {
+  #member .member__profile {
+    margin: 0 auto 25px;
+    width: 60%; }
+    #member .member__profile:nth-child(3n) {
+      margin: 0 auto; }
+  #member .member__photo--2 {
+    width: 30%; }
+  #member .member__name {
+    padding: 10% 0 10%; }
+  #member .member__link {
+    width: 50%; } }
+/*max-width770以下*/
+@media screen and (max-width: 770px) {
+  #member .member__profile {
+    width: 90%; }
+  #member .member__photo--2 {
+    width: 30%; }
+  #member .member__link {
+    width: 50%;
+    font-size: 0.8rem; }
+    #member .member__link::after {
+      content: "";
+      left: 145px; } }
+
+/*# sourceMappingURL=member.css.map */

@@ -1,0 +1,32 @@
+#interior-designer {
+    .interior-designer {
+        &__menu {
+            padding-bottom: 20px;
+        }
+        &__list {
+            padding: 3px 0;
+            letter-spacing: 3px;
+            line-height: 1.8;
+            color: #6d6d6d;
+            font-weight: bold;
+            font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif!important;    
+        }
+    }
+}
+
+/*max-width770以下*/
+@media screen and (max-width:770px) {
+    #interior-designer {
+        .interior-designer {
+            &__menu {
+                padding-bottom: 10%;
+            }
+            &__list {
+                padding: 3px 0 3px 17px;
+                letter-spacing: 3px;
+                line-height: 1.8;
+                text-indent: -17px;
+            }
+        }
+    }
+}

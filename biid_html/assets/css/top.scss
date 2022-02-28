@@ -1,0 +1,29 @@
+#top {
+    .block {
+        &__txt {
+            width: 680px;
+        }
+    }
+}
+
+/*max-width1100以下*/
+@media screen and (max-width:1100px) {
+    #top {
+        .block {
+            &__txt {
+                width: 68%;
+            }
+        }
+    }
+}
+
+/*max-width770以下*/
+@media screen and (max-width:770px) {
+    #top {
+        .block {
+            &__txt {
+                width: 100%;
+            }
+        }
+    }
+}
